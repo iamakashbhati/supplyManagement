@@ -1,0 +1,41 @@
+Supply Chain - Blockchain Project
+
+Supply Chain management tracking on Blockchain. Project provides transaparency of every process in production.
+
+Contracts:
+
+Producer: The Producer can harvest grapes, process vinification, sell to distributor and track authenticity.
+Distributor: The Distributor can buy & distribute wine bottle and track authenticity.
+Retailer: The Retailer can buy & put wine bottles for sale and track authenticity.
+Consumer: The consumer can buy wine bottle and track authenticity.
+
+Tech & Dependencies:
+
+Node.js - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+Truffle - The most popular blockchain development suite.
+OpenZeppelin - OpenZeppelin is a library for secure smart contract development.
+Truffle HD Wallet - HD Wallet-enabled Web3 provider.
+Metamask - Brings Ethereum to your browser.
+Webpack - A bundler for javascript
+
+Installation
+Notary Blockchain requires Node.js v4+ to run.
+
+Install the dependencies and start the server.
+
+$ cd <name of directory>
+$ npm run build
+$ npm run start
+The web app will be deployed to http://localhost:8080
+
+Download and install Metamask on Google Chrome browser to interact with contract.
+
+Ensure to add custom RPC to Metamask at http://127.0.0.1:9545 to connect with local ganache blockchain.
+
+For running tests:
+
+$ cd <name of directory>
+$ truffle migrate --reset --development (Make sure you have installed ganache-cli)
+$ truffle test
+
+
